@@ -11,3 +11,7 @@ function adicionarAmigo() {
         alert('Por Favor, digite um nome válido.')
         return;//para a execução
     }
+
+    amigos.push(nomeAmigo)
+
+    
