@@ -43,4 +43,5 @@ function adicionarAmigo() {
     function reiniciar() {
         amigos = [] //apaga a lista de convidados.
         document.getElementById('listaAmigos').innerHTML = ''; //limpa a exibição da lista
+        document.getElementById('resultado').innerHTML = ''; //limpa o resultado do sorteio
     }
