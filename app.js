@@ -12,6 +12,12 @@ function adicionarAmigo() {
         return;//para a execução
     }
 
-    amigos.push(nomeAmigo)
+    //adiciona o nome à lista "array"
+    amigos.push(nomeAmigo);
 
-    
+    //atualiza a exibição da lista na tela 
+    let lista = document.getElementById('listaAmigos');
+    lista.innerHTML = lista.innerHTML + `<li>${nomeAmigo}</li>`;
+
+    //limpa o campo input.
+    amigoInput.value = '';
