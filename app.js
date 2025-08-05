@@ -38,3 +38,9 @@ function adicionarAmigo() {
     //exibi o resultado na tela.
     let resultado = document.getElementById('resultado');
     resultado.innerHTML = `<li>${amigoSorteado}</li>`
+
+    //funçaõ reiniciar
+    function reiniciar() {
+        amigos = [] //apaga a lista de convidados.
+        document.getElementById('listaAmigos').innerHTML = ''; //limpa a exibição da lista
+    }
