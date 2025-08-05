@@ -21,3 +21,20 @@ function adicionarAmigo() {
 
     //limpa o campo input.
     amigoInput.value = '';
+
+    //valida se há amigos suficientes para o sorteio.
+    function sortearAmigo() 
+        if (amigos.length < 2){
+        alert('Adicione pelo menos 2 amigos para realizar o sorteio!');
+        return;
+    }
+
+    //sorteia aleatório.
+    let indiceSorteado = Math.floor(Math.random() * amigos.length);
+
+    //pega o nome do sorteado.
+    let amigoSorteado = amigos[indiceSorteado];
+
+    //exibi o resultado na tela.
+    let resultado = document.getElementById('resultado');
+    resultado.innerHTML = `<li>${amigoSorteado}</li>`
