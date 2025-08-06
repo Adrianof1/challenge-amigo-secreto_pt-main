@@ -31,7 +31,7 @@ Por ser um projeto que roda inteiramente no navegador (client-side), não é nec
 
 1. **Clone o repositório:**
     ```bash
-    git clone [https://github.com/Adrianof1/challenge-amigo-secreto_pt-main.git](https://github.com/Adrianof1/challenge-amigo-secreto_pt-main.git)
+    git clone https://github.com/Adrianof1/challenge-amigo-secreto_pt-main.git
     ```
 
     
