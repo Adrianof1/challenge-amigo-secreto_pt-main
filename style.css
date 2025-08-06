@@ -6,6 +6,8 @@
     --color-button-hover: #e55720;
     --color-text: #444444;
     --color-white: #FFFFFF;
+    --color-botao-reiniciar: #522bfe;
+    --color-botao-reiniciar-hover: #e520b4;
 }
 
 /* Estilos gerais */
@@ -122,7 +124,7 @@ button {
 }
 
 .button-add:hover {
-    background-color: #05DF05;
+    background-color: #e55720;
 }
 
 /* Listas */
@@ -168,7 +170,7 @@ ul {
     width: 100%;
     padding: 10px 40px;
     color: var(--color-white);
-    background-color: var(--color-button);
+    background-color: var(--color-botao-reiniciar);
     font-size: 16px;
 }
 
@@ -177,5 +179,5 @@ ul {
 }
 
 .button-reiniciar:hover {
-    background-color: var(--color-button-hover);
+    background-color: var(--color-botao-reiniciar-hover);
 }
