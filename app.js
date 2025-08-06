@@ -29,5 +29,8 @@ function adicionarAmigo() {
 
 
 function sortearAmigo() { //função chamada pelo botão "Sortear amigo".
-
+    if (amigos.length < 2) { //valida se há pessoas suficientes para realizar um sorteio.
+        alert('É necessário adicionar pelo menos 2 amigos para o sorteio!');
+        return; //para a execução.
+    }
 }
