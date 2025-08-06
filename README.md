@@ -24,3 +24,29 @@ O projeto foi construido utilizando as seguintes tecnologias:
 -   ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ---
+
+## 👨‍💻 Como Executar 👩‍💻
+
+Por ser um projeto que roda inteiramente no navegador (client-side), não é necessária nenhuma instalação de dependências ou pacotes.
+
+1. **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git](https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git)
+    ```
+2. **Navegue até a pasta do projeto:**
+    ```bash
+    cd SEU-REPOSITORIO
+    ```
+
+3. **Abra o arquivo `index.html`:** 
+    Basta abrir este arquivo diretamente no navegador.
+
+---
+
+## 👨‍💻 Autor
+
+Projeto Desenvolvido por **Adriano Ferreira**
+Na formação **Alura + Oracle** Turma 9
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Adrianof1)
+
