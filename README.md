@@ -47,7 +47,7 @@ Por ser um projeto que roda inteiramente no navegador (client-side), não é nec
 
 ## 👨‍💻 Autor
 
-Projeto Desenvolvido por **Adriano Ferreira**
+Projeto Desenvolvido por **Adriano Ferreira**<br>
 Na formação **Alura + Oracle** Turma 9
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Adrianof1)
