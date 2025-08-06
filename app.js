@@ -33,4 +33,13 @@ function sortearAmigo() { //função chamada pelo botão "Sortear amigo".
         alert('É necessário adicionar pelo menos 2 amigos para o sorteio!');
         return; //para a execução.
     }
+
+    let indiceSorteado = Math.floor(Math.random() * amigos.length); // gera um número aleatório e o ajusta para ser um indice válido.
+
+    let amigoSorteado = amigos[indiceSorteado]; //usa o indice sorteado para pegar o nome correpondente na lista.
+
+    let resultadoHTML = document.getElementById('resultado'); //pega o elemento <ul> onde o resultado será exibido.
+
+    resultadoHTML.innerHTML = `<li>${amigoSorteado}<li>`;
 }
+
