@@ -37,7 +37,7 @@ Por ser um projeto que roda inteiramente no navegador (client-side), não é nec
     
 2. **Navegue até a pasta do projeto:**
     ```bash
-    cd SEU-REPOSITORIO
+    cd challenge-amigo-secreto_pt-main
     ```
 
 3. **Abra o arquivo `index.html`:** 
