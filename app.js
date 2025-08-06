@@ -14,5 +14,5 @@ function adicionarAmigo() {
         return; //para a execução.
     }
 
-    amigos.push(nomeAmigo); //se passou em todas as validações, adiciona o nome ao array 'amigos'.
+    amigos.push(nomeAmigo); //se passou em todas as validações, adiciona o nome ao array 'amigos'
 }
