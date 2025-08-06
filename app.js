@@ -43,3 +43,9 @@ function sortearAmigo() { //função chamada pelo botão "Sortear amigo".
     resultadoHTML.innerHTML = `<li>${amigoSorteado}<li>`;
 }
 
+function reiniciar() {
+    amigos = []; //esvazia o array na memória.
+    document.getElementById('listaAmigos').innerHTML = ''; //limpa a lista de amigos visivel na tela.
+    document.getElementById('resultado').innerHTML = ''; //limpa o resultado do sorteio.
+
+}
