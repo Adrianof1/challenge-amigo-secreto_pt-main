@@ -24,5 +24,6 @@ function adicionarAmigo() {
 
     amigoInput.value = ''; //limpa o campo de texto para digitar o próximo nome.
 
+    amigoInput.focus(); // deixa o cursor piscando no campo, pronto para o próximo nome.
 }
 
