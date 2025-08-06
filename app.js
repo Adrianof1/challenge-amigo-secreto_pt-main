@@ -1,3 +1,5 @@
+//Código escrito ao som da playlist Linkin Park 😁
+
 let amigos = []
 
 function adicionarAmigo() {
@@ -14,5 +16,13 @@ function adicionarAmigo() {
         return; //para a execução.
     }
 
-    amigos.push(nomeAmigo); //se passou em todas as validações, adiciona o nome ao array 'amigos'
+    amigos.push(nomeAmigo); //se passou em todas as validações, adiciona o nome ao array 'amigos'.
+
+    let listaHTMl = document.getElementById('listaAmigos'); //pega o elemento da lista <ul> no html.
+
+    listaHTMl.innerHTML = listaHTMl.innerHTML + `<li>${nomeAmigo}`; //adiciona o novo amigo a lista na tela, formatando como lista.
+
+    amigoInput.value = ''; //limpa o campo de texto para digitar o próximo nome.
+
 }
+
