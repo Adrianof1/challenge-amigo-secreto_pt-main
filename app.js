@@ -27,3 +27,7 @@ function adicionarAmigo() {
     amigoInput.focus(); // deixa o cursor piscando no campo, pronto para o próximo nome.
 }
 
+
+function sortearAmigo() { //função chamada pelo botão "Sortear amigo".
+
+}
